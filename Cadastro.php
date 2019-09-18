@@ -5,7 +5,7 @@
 	</head>
 
 	<body>
-		<h1>Cadstro</h1>
+		<h1>Novo Usuario / ou faça<a href="Login.php"> Login</a></h1>
 	
 		<form action="SalvarUsuario.php" method="post">
 			<label>Nome</label>
