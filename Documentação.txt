@@ -1,0 +1,13 @@
+	Sistema para cadastro de usuarios no banco de dados com verificação se ja existe um usuario cadastrado com aquele email.
+	tabela do banco
+
+create table usuarios
+(
+	id int not null primary key auto_increment,
+	nome varchar(100),
+	email varchar(100),
+	senha varchar(100)
+);
+--------------------------------------------------------------
+ Sistema para login que redereciona o usuario para o index(pagina principal) se o email e senha forem validados;
+
